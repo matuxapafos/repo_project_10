@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Вход </title>
+    <link type="text/css" href="{{ url_for('static', filename='css/index.css') }}" rel="stylesheet"/>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Введите данные для входа</h2>
+        <p>Вход:</p>
+
+        <div class="input-block">
+            <input class="login-input" type="email" placeholder="Логин или email">
+        </div>
+        <div class="input-block">
+            <input class="password-input" type="password" placeholder="Пароль">
+        </div>
+
+        <div class="login-btn">
+          <a href="/about"><button class="custom-btn"> Вход </button></a>
+        </div>
+
+        <div class="login-buttons">
+            <a href="/reg"> <button class="custom-btn2"> Регистрация </button> </a>
+        </div>
+        <div class="login-buttons">
+            <a href="/"> <button class="custom-btn2"> Забыли пароль? </button> </a>
+        </div>
+    </div>
+
+</body>
+</html>

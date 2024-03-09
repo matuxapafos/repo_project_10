@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+.registration-container {
+    width: 425px;
+    height: 520px;
+    color: black;
+    background-color: white;
+    border-radius: 60px;
+    border: 2px solid black;
+    margin-top: 150px;
+    margin-left: 700px;
+    box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.5)
+}
+
+h2 {
+    margin-top: 35px;
+    margin-left: 12px;
+    font-size: 25px;
+    color: black;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.input-block {
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.login-input,
+.name-input,
+.email-input,
+.password-input,
+.confirm-password-input {
+    width: 300px;
+    height: 42px;
+    border: 2px solid #d0d0d0;
+    border-radius: 50px;
+    padding-left: 15px;
+}
+
+.registration-buttons {
+    text-align: center;
+    display: inline-block;
+    margin-left: 54px;
+}
+
+.custom-btn {
+    text-align: center;
+    font-size: 20px;
+    height: 42px;
+    width: 320px;
+    border-radius: 50px;
+    border: #b47fd0;
+    background-color: #b47fd0;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.custom-btn:hover {
+    background-color: #b25cd0;
+    color: rgba(0,0,0,0.66)
+}
+
+.custom-btn:active {
+    background-color: rgba(126,208,130,0.66);
+}
